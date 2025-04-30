@@ -1,0 +1,17 @@
+batch_size: 16
+checkpoint: null
+device: cuda:0
+exp_name: task2_1
+learning_rate: 0.001
+learning_rate_min: 1.0e-08
+log_interval: 100
+max_iter: 10000
+model_type: est_coord
+num_workers: 8
+obj_name: power_drill
+point_num: 1024
+robot: galbot
+save_interval: 2500
+seed: 0
+val_interval: 500
+val_num: 10
